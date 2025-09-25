@@ -38,6 +38,23 @@ a single workflow.
 2. **OpenAI API key** – required to run both agents.
 3. **(Optional) Tavily API key** – enables high quality sustainability-focused web search.
 
+## Dependency checklist
+
+Install the following Python packages to run the project locally. The minimum
+versions align with the configuration in `pyproject.toml`:
+
+- `langchain>=0.2.0`
+- `langchain-openai>=0.1.7`
+- `langchain-community>=0.2.0`
+- `pydantic>=2.6.0`
+- `pydantic-settings>=2.2.1`
+- `python-dotenv>=1.0.1`
+- `tavily-python>=0.3.5`
+
+For test tooling, also install:
+
+- `pytest>=8.0.0`
+
 Install the dependencies in a virtual environment:
 
 ```bash
